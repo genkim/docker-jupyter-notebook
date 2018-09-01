@@ -1,0 +1,10 @@
+version: "3.0"
+services:
+  jupyter:
+    container_name: jupyter
+    build: ./jupyter
+    volumes:
+      - "/vagrant:/vagrant"
+    ports:
+      - "80:8888"
+    restart: always

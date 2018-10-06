@@ -1,1 +1,1 @@
-FROM jupyter/datascience-notebook
+FROM tensorflow/tensorflow:latest-py3
